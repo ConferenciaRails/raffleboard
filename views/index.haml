@@ -1,6 +1,6 @@
 !!! 5
 %html
-  
+
   %head
     %title Raffleboard
     %link{ :href => 'stylesheets/reset.css', :type => 'text/css', :rel => 'stylesheet' }
@@ -9,25 +9,24 @@
     %script{ :src => 'javascripts/rand.js', :language => 'javascript', :type => 'text/javascript' }
     %script{ :src => 'javascripts/solari.js', :language => 'javascript', :type => 'text/javascript' }
     %script{ :src => 'javascripts/application.js', :language => 'javascript', :type => 'text/javascript' }
-  
+
   %body
 
     #header
-      %a#add_entries_link{ :href => '#' }add entries
-      %a#prizes_link{ :href => '#' } sponsors
-      %a#pick_1.pick{ :href => '#' } Pick 1
-      %a#pick_5.pick{ :href => '#' } Pick 5
-      
+      %a#add_entries_link{ :href => '#' } Nomes
+      %a#prizes_link{ :href => '#' } Patrocinadores
+      %a#pick_1.pick{ :href => '#' } Sortear
+
       %form{ :id => 'entries_form' }
-        %input{ :type => :text, :id => :new_entries, :value => 'numbers, ranges...' }
-        %input{ :type => :submit, :value => 'Add These' }
+        %input{ :type => :text, :id => :new_entries, :value => 'Arquivo com Nomes...' }
+        %input{ :type => :submit, :value => 'Adicionar' }
 
       %select#prize_selection= @prize_options
 
     #wrapper
-    
+
       #prizes
-        %img{ :id => 'sponsor', :src => '/images/sponsors/Codemash.gif' }
+        %img{ :id => 'sponsor', :src => '/images/sponsors/DevinRio.png' }
 
       #winners
         %h1= 'WINNERS (<span id="entry_counter">0</span> entries left)'
@@ -35,13 +34,16 @@
 
       #drawing
         %ul
-          %li 
+          %li
           %li
           %li
           %li
           %li
 
       %ul#credits
+        %li
+          adapted by
+          %a{ :href => 'http://github.com/horaextra/raffleboard' } #horaextra
         %li
           written by
           %a{ :href => 'http://twitter.com/adamlogic' } @adamlogic
@@ -54,3 +56,4 @@
         %li
           fork me on
           %a{ :href => 'http://github.com/adamlogic/raffleboard' } github
+
