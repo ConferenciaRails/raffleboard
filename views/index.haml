@@ -13,13 +13,8 @@
   %body
 
     #header
-      %a#add_entries_link{ :href => '#' } Nomes
-      %a#prizes_link{ :href => '#' } Patrocinadores
       %a#pick_1.pick{ :href => '#' } Sortear
-
-      %form{ :id => 'entries_form' }
-        %input{ :type => :text, :id => :new_entries, :value => 'Arquivo com Nomes...' }
-        %input{ :type => :submit, :value => 'Adicionar' }
+      %a#prizes_link{ :href => '#' } Patrocinadores
 
       %select#prize_selection= @prize_options
 
@@ -34,10 +29,6 @@
 
       #drawing
         %ul
-          %li
-          %li
-          %li
-          %li
           %li
 
       %ul#credits
