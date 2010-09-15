@@ -35,7 +35,7 @@ a:hover, a.hover { color: #fff; opacity: 1.0; }
   font-size: 24px;
   font-weight: bold;
 }
-#header a#pick_1 { margin-left: -110px; }
+#header a#pick_1 { margin-left: -70px; }
 #header a#pick_5 { margin-left: 10px; }
 #header form { display: none; float: left; margin-left: 10px; }
 #header select { position: absolute; top: 15px; right: 15px; opacity: 0; cursor: pointer; }
@@ -70,7 +70,7 @@ a:hover, a.hover { color: #fff; opacity: 1.0; }
   white-space: nowrap;
 }
 
-#drawing { position: relative; width: 350px; min-height: 100px; margin: 40px auto 0 auto; }
+#drawing { position: relative; width: 350px; min-height: 100px; margin: 150px auto 150px auto; }
 #drawing li { margin-bottom: 14px; overflow: hidden; text-align: center; font-family: 'Knockout', courier; }
 #drawing li span.jq-solari-char {
   position: relative;
@@ -99,6 +99,6 @@ a:hover, a.hover { color: #fff; opacity: 1.0; }
 #entries_form label { display: block; padding-bottom: 2px; }
 #entries_form input[type=text] { width: 140px; }
 
-#credits { position: absolute; bottom: 14px; right: 20px; width: 200px; font-size: 12px; }
+#credits { position: absolute; bottom: 0; right: 20px; width: 200px; font-size: 12px; }
 #credits li { margin-bottom: 5px; color: #aaa; }
 
