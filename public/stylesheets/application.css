@@ -18,7 +18,7 @@ a:hover, a.hover { color: #fff; opacity: 1.0; }
   top: 0;
   right: 0;
   left: 0;
-  height: 50px;
+  height: 100px;
   padding: 0 15px;
   font-family: 'Gotham', sans-serif; font-size: 16px;
   line-height: 50px;
@@ -30,9 +30,9 @@ a:hover, a.hover { color: #fff; opacity: 1.0; }
 #header a#prizes_link { float: right;  }
 #header a.pick {
   position: absolute;
-  left: 50%;
-  height: 50px;
-  font-size: 24px;
+  top: 20px;
+  left: 45%;
+  font-size: 36px;
   font-weight: bold;
 }
 #header a#pick_1 { margin-left: -70px; }
@@ -43,9 +43,10 @@ a:hover, a.hover { color: #fff; opacity: 1.0; }
 
 #wrapper {
   position: absolute;
-  top: 50px;
+  top: 100px;
   width: 100%;
   margin: 0 auto;
+  padding: 40px 0 0 0;
   background: transparent url(/images/wrapper_background.gif) repeat-x;
 }
 

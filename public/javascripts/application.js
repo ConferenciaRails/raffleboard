@@ -6,9 +6,6 @@ $(function() {
         $.get('/sortear', function(data) {
             $('#drawing li').solari(data);
         });
-
     });
-
-
 });
 
