@@ -20,7 +20,7 @@ end
 
 set :names, extract_names
 
-get '/'
+get '/' do
   haml :index
 end
 
